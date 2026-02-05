@@ -62,9 +62,6 @@ where salary>( select avg(salary)
 from Employee);
 
 2.Find the employees who belong to the department with the highest average salary.
-select name, salary from employee
-order by salary desc
-limit 1;
 
 SELECT *
 FROM employee
